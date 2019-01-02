@@ -18,6 +18,9 @@
 使用puppet管理100台主机，就要在这100台主机上安装puppet对应的agent（客户端代理程序），
 而ansible则不同，ansible只需要依赖ssh即可正常工作，不用在受管主机上安装agent，也就是说，
 只要你能通过ssh连接到对应主机，你就可以通过ansible管理对应的主机。
+
+saltstack : 一般需要部署agent，执行效率更高 （python）
+puppet：功能强大，配置复杂，重型，适合大型环境
 ```
 
 * 条件
