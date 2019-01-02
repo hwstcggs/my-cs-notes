@@ -1,0 +1,1003 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>synchronize模块 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="fu-wu-guan-li.html" />
+    
+    
+    <link rel="prev" href="cronmo-kuai.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../revision-record.html">
+            
+                <a href="../../revision-record.html">
+            
+                    
+                    修订记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../how-to-contribute.html">
+            
+                <a href="../../how-to-contribute.html">
+            
+                    
+                    如何贡献
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../introduction/">
+            
+                <a href="../../introduction/">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../introduction/what.html">
+            
+                <a href="../../introduction/what.html">
+            
+                    
+                    目的
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../linux/">
+            
+                <a href="../../linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../linux/shell/README.md">
+            
+                <span>
+            
+                    
+                    Shell编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../linux/shell/awk.md">
+            
+                <span>
+            
+                    
+                    AWK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../../linux/shell/sed.md">
+            
+                <span>
+            
+                    
+                    SED
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="../../linux/shell/expect.md">
+            
+                <span>
+            
+                    
+                    expect
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../linux/process/README.md">
+            
+                <span>
+            
+                    
+                    进程管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../linux/manager/README.md">
+            
+                <span>
+            
+                    
+                    资源管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../../linux/manager/cpu.md">
+            
+                <span>
+            
+                    
+                    cpu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../../linux/manager/net.md">
+            
+                <span>
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../linux/disk/README.md">
+            
+                <span>
+            
+                    
+                    磁盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../tcp_ip/">
+            
+                <a href="../../tcp_ip/">
+            
+                    
+                    网络协议
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../tcp_ip/model.html">
+            
+                <a href="../../tcp_ip/model.html">
+            
+                    
+                    TCP/IP模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../tcp_ip/ethernet.html">
+            
+                <a href="../../tcp_ip/ethernet.html">
+            
+                    
+                    以太网协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../tcp_ip/arp.html">
+            
+                <a href="../../tcp_ip/arp.html">
+            
+                    
+                    ARP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../tcp_ip/icmp.html">
+            
+                <a href="../../tcp_ip/icmp.html">
+            
+                    
+                    ICMP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../tcp_ip/ping.html">
+            
+                <a href="../../tcp_ip/ping.html">
+            
+                    
+                    PING
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../tcp_ip/traceroute.html">
+            
+                <a href="../../tcp_ip/traceroute.html">
+            
+                    
+                    Traceroute
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../../tcp_ip/ip-protocol.html">
+            
+                <a href="../../tcp_ip/ip-protocol.html">
+            
+                    
+                    IP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../../tcp_ip/ip-fragmentation.html">
+            
+                <a href="../../tcp_ip/ip-fragmentation.html">
+            
+                    
+                    IP分片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../../tcp_ip/cast.html">
+            
+                <a href="../../tcp_ip/cast.html">
+            
+                    
+                    广播与组播
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../python/">
+            
+                <a href="../../python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../python/json.html">
+            
+                <a href="../../python/json.html">
+            
+                    
+                    json处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../python/file.html">
+            
+                <a href="../../python/file.html">
+            
+                    
+                    文件处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../python/network.md">
+            
+                <span>
+            
+                    
+                    网络编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../golang/">
+            
+                <a href="../../golang/">
+            
+                    
+                    Golang
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../golang/web/">
+            
+                <a href="../../golang/web/">
+            
+                    
+                    Web
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../golang/json.html">
+            
+                <a href="../../golang/json.html">
+            
+                    
+                    json解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    运维工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    ansible
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="introduce.html">
+            
+                <a href="introduce.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.2" data-path="pei-zhi-wen-jian.html">
+            
+                <a href="pei-zhi-wen-jian.html">
+            
+                    
+                    配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.3" data-path="qing-dan-pei-zhi.html">
+            
+                <a href="qing-dan-pei-zhi.html">
+            
+                    
+                    清单配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4" data-path="mo-kuai-ji-ben-shi-yong.html">
+            
+                <a href="mo-kuai-ji-ben-shi-yong.html">
+            
+                    
+                    模块基本使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.4.1" data-path="commandhe-shell-mo-kuai.html">
+            
+                <a href="commandhe-shell-mo-kuai.html">
+            
+                    
+                    command和shell 模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.2" data-path="pingmo-kuai.html">
+            
+                <a href="pingmo-kuai.html">
+            
+                    
+                    ping模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.3" data-path="copy.html">
+            
+                <a href="copy.html">
+            
+                    
+                    copy模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.4" data-path="filemo-kuai.html">
+            
+                <a href="filemo-kuai.html">
+            
+                    
+                    file模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.5" data-path="scriptmo-kuai.html">
+            
+                <a href="scriptmo-kuai.html">
+            
+                    
+                    script模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.6" data-path="cronmo-kuai.html">
+            
+                <a href="cronmo-kuai.html">
+            
+                    
+                    cron模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9.1.4.7" data-path="synchronizemo-kuai.html">
+            
+                <a href="synchronizemo-kuai.html">
+            
+                    
+                    synchronize模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.8" data-path="fu-wu-guan-li.html">
+            
+                <a href="fu-wu-guan-li.html">
+            
+                    
+                    服务管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.9" data-path="shou-ji-xi-tong-xin-xi.html">
+            
+                <a href="shou-ji-xi-tong-xin-xi.html">
+            
+                    
+                    收集系统信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4.10" >
+            
+                <span>
+            
+                    
+                    script模块
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../monitor/">
+            
+                <a href="../../monitor/">
+            
+                    
+                    监控
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../../monitor/promethues.html">
+            
+                <a href="../../monitor/promethues.html">
+            
+                    
+                    promethues
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.1" data-path="../../monitor/demo.html">
+            
+                <a href="../../monitor/demo.html">
+            
+                    
+                    告警处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >synchronize模块</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="synchronize&#x6A21;&#x5757;">synchronize&#x6A21;&#x5757;</h2>
+<pre><code>#&#x5148;&#x58F0;&#x660E;&#x4E0B;&#xFF0C;&#x4F7F;&#x7528;rsync &#x6A21;&#x5757;&#xFF0C;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x7CFB;&#x7EDF;&#x5FC5;&#x987B;&#x5B89;&#x88C5;rsync &#x5305;&#xFF0C;&#x5426;&#x5219;&#x65E0;&#x6CD5;&#x4F7F;&#x7528;&#x8FD9;&#x4E2A;&#x6A21;&#x5757;
+#&#x5148;&#x7ED9;&#x8FDC;&#x7A0B;&#x673A;&#x88C5;&#x4E2A;rsync&#x5427;
+
+[root@ansibleserver ~]# ansible 192.168.1.232 -m yum -a &apos;name=rsyncstate=latest&apos;
+
+#&#x518D;&#x6B21;&#x9A8C;&#x8BC1;&#x4E0B;rsync&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;
+[root@ansibleserver ~]# ansible 192.168.1.232 -a &quot;which rsync&quot;
+192.168.1.232 | success | rc=0 &gt;&gt;
+/usr/bin/rsync
+#&#x770B;&#x6765;&#x6CA1;&#x95EE;&#x9898;&#x4E86;&#xFF01;
+</code></pre><pre><code>#&#x770B;&#x4E0B;&#x4F7F;&#x7528;&#x7684;&#x53C2;&#x6570;
+[root@ansibleserver ~]# ansible-doc -s synchronize
+- name: Uses rsync to make synchronizing file paths in your playbooks quickand easy.
+action: synchronize
+archive                # &#x662F;&#x5426;&#x91C7;&#x7528;&#x5F52;&#x6863;&#x6A21;&#x5F0F;&#x540C;&#x6B65;&#xFF0C;&#x5373;&#x4EE5;&#x6E90;&#x6587;&#x4EF6;&#x76F8;&#x540C;&#x5C5E;&#x6027;&#x540C;&#x6B65;&#x5230;&#x76EE;&#x6807;&#x5730;&#x5740;
+checksum               # &#x662F;&#x5426;&#x6548;&#x9A8C;
+compress               # &#x662F;&#x5426;&#x538B;&#x7F29;
+copy_links             # &#x540C;&#x6B65;&#x7684;&#x65F6;&#x5019;&#x662F;&#x5426;&#x590D;&#x5236;&#x8FDE;&#x63A5;
+delete                 # &#x5220;&#x9664;&#x6E90;&#x4E2D;&#x6CA1;&#x6709;&#x800C;&#x76EE;&#x6807;&#x5B58;&#x5728;&#x7684;&#x6587;&#x4EF6;
+dest=                  # &#x76EE;&#x6807;&#x5730;&#x5740;
+dest_port              # &#x76EE;&#x6807;&#x63A5;&#x53D7;&#x7684;&#x7AEF;&#x53E3;
+dirs                   # &#x4EE5;&#x975E;&#x9012;&#x5F52;&#x7684;&#x65B9;&#x5F0F;&#x4F20;&#x8F93;&#x76EE;&#x5F55;
+existing_only          # Skipcreating new files on receiver.
+group                  # Preservegroup
+links                  # Copysymlinks as symlinks.
+mode                   # &#x6A21;&#x5F0F;&#xFF0C;rsync &#x540C;&#x6B65;&#x7684;&#x65B9;&#x5F0F; PUSH\PULL
+recursive              # &#x662F;&#x5426;&#x9012;&#x5F52; yes/no
+rsync_opts             # &#x4F7F;&#x7528;rsync &#x7684;&#x53C2;&#x6570;
+rsync_path             # &#x670D;&#x52A1;&#x7684;&#x8DEF;&#x5F84;&#xFF08;&#x6E90;&#x7801;&#x7F16;&#x8BD1;&#x65F6;&#x9700;&#x6307;&#x5B9A;&#xFF09;
+rsync_timeout          # Specify a--timeout for the rsync command in seconds.
+set_remote_user        # put user@for the remote paths. If you have a custom ssh config to define the remote userfor
+src=                   # &#x6E90;&#xFF0C;&#x540C;&#x6B65;&#x7684;&#x6570;&#x636E;&#x6E90;
+times
+</code></pre><pre><code>&#x5B9E;&#x4F8B;&#xFF1A;&#x5C06;ansible&#x7AEF;/tmp/&#x76EE;&#x5F55;&#x4E0B;&#x7684;script&#x540C;&#x6B65;&#x5230;232&#x673A;&#x5B50;&#x7684;/tmp/&#x76EE;&#x5F55;&#x4E0B;&#x9762;
+[root@ansibleserver ~]# ansible 192.168.1.232 -m synchronize -a &apos;src=/tmp/script dest=/tmp/&apos; 
+192.168.1.232 | success &gt;&gt; {
+    &quot;changed&quot;: true, 
+    &quot;cmd&quot;: &quot;rsync--delay-updates -FF --compress --archive --rsh &apos;ssh  -o StrictHostKeyChecking=no&apos;--out-format=&apos;&lt;&lt;CHANGED&gt;&gt;%i %n%L&apos; \&quot;/tmp/script\&quot;\&quot;root@192.168.1.232:/tmp/\&quot;&quot;, 
+    &quot;msg&quot;:&quot;cd+++++++++ script/\n&lt;f+++++++++ script/a.txt\n&quot;, 
+    &quot;rc&quot;: 0, 
+    &quot;stdout_lines&quot;: [
+        &quot;cd+++++++++script/&quot;, 
+        &quot;&lt;f+++++++++script/a.txt&quot;
+    ]
+}
+#&#x6CE8;&#x610F;&#xFF1A;&#x8981;&#x60F3;ansible&#x7AEF;&#x4E8E;&#x8FDC;&#x7A0B;&#x7AEF;&#x7684;&#x6587;&#x4EF6;&#x4FDD;&#x6301;&#x4E00;&#x81F4;&#xFF0C;&#x6700;&#x597D;&#x7528;delete=yes&#x53C2;&#x6570;
+&#x56E0;&#x4E3A;&#xFF0C;&#x6709;&#x65F6;&#x5019;&#x5728;ansible&#x7684;&#x76EE;&#x5F55;&#x4E0B;&#x5220;&#x9664;&#x4E86;&#x67D0;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x82E5;&#x4E0D;&#x52A0;delete=yes&#x53C2;&#x6570;&#x7684;&#x8BDD;&#xFF0C;&#x8FDC;&#x7A0B;&#x7AEF;&#x7684;&#x76EE;&#x5F55;&#x4E0B;&#x4ECD;&#x7136;&#x4FDD;&#x7559;&#x6709;&#x65E7;&#x7684;&#x6587;&#x4EF6;&#xFF01;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="cronmo-kuai.html" class="navigation navigation-prev " aria-label="Previous page: cron模块">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="fu-wu-guan-li.html" class="navigation navigation-next " aria-label="Next page: 服务管理">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"synchronize模块","level":"1.9.1.4.7","depth":4,"next":{"title":"服务管理","level":"1.9.1.4.8","depth":4,"path":"devops/ansible/fu-wu-guan-li.md","ref":"devops/ansible/fu-wu-guan-li.md","articles":[]},"previous":{"title":"cron模块","level":"1.9.1.4.6","depth":4,"path":"devops/ansible/cronmo-kuai.md","ref":"devops/ansible/cronmo-kuai.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"devops/ansible/synchronizemo-kuai.md","mtime":"2019-01-02T21:37:51.424Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-02T22:00:52.505Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
