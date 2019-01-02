@@ -43,6 +43,8 @@
       * [file模块](devops/ansible/filemo-kuai.md)
       * [cron模块](devops/ansible/cronmo-kuai.md)
       * [synchronize模块](devops/ansible/synchronizemo-kuai.md)
+      * [服务管理](devops/ansible/fu-wu-guan-li.md)
+      * [收集系统信息](devops/ansible/shou-ji-xi-tong-xin-xi.md)
 * [监控](monitor/README.md)
   * [promethues](monitor/promethues.md)
     * [告警处理](monitor/demo.md)
