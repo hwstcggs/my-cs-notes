@@ -13,5 +13,19 @@
 
 * 对比
 
-puppet或者saltstack，那么你一定知道，如果我们想要使用puppet管理100台主机，就要在这100台主机上安装puppet对应的agent（客户端代理程序），而ansible则不同，ansible只需要依赖ssh即可正常工作，不用在受管主机上安装agent，也就是说，只要你能通过ssh连接到对应主机，你就可以通过ansible管理对应的主机。
+```
+与其他的配置管理工具puppet或者saltstack对比：
+使用puppet管理100台主机，就要在这100台主机上安装puppet对应的agent（客户端代理程序），
+而ansible则不同，ansible只需要依赖ssh即可正常工作，不用在受管主机上安装agent，也就是说，
+只要你能通过ssh连接到对应主机，你就可以通过ansible管理对应的主机。
+```
+
+* 条件
+
+```
+条件一、ansible所在的主机可以通过ssh连接到受管主机。
+条件二、受管主机的IP地址等信息已经添加到ansible的"管理清单"中
+```
+
+
 
