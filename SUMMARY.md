@@ -35,6 +35,7 @@
 * [运维工具](devops/README.md)
   * [ansible](devops/ansible/README.md)
     * [简介](devops/ansible/introduce.md)
+    * [配置文件](devops/ansible/pei-zhi-wen-jian.md)
     * [清单配置](devops/ansible/qing-dan-pei-zhi.md)
     * [模块基本使用](devops/ansible/mo-kuai-ji-ben-shi-yong.md)
 * [监控](monitor/README.md)

@@ -10,7 +10,7 @@
 * 一个任务执行一遍和n遍效果一样，面向结果
 * yaml格式，编排任务，丰富数据结构
 
-![](/assets/import.png)
 
-![](/assets/import.png)
+
+
 
