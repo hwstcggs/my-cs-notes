@@ -34,7 +34,6 @@ PLAY RECAP********************************************************************
 实例3：
 目的：在指定节点上定义一个计划任务，每周一、三、五，每分钟执行
 命令：ansible all-m cron -a 'name="custom job" minute=* hour=* day=* month=*weekday=* job="/usr/bin/echo hello"'
-
 ```
 
 
