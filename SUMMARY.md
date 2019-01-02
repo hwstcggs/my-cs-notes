@@ -41,6 +41,7 @@
       * [ping模块](devops/ansible/pingmo-kuai.md)
       * [copy模块](devops/ansible/copy.md)
       * [file模块](devops/ansible/filemo-kuai.md)
+      * [cron模块](devops/ansible/cronmo-kuai.md)
 * [监控](monitor/README.md)
   * [promethues](monitor/promethues.md)
     * [告警处理](monitor/demo.md)
