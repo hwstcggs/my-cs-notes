@@ -50,7 +50,17 @@
       * [收集系统信息](devops/ansible/shou-ji-xi-tong-xin-xi.md)
       * [script模块](devops/ansible/scriptmo-kuai.md)
     * [playbook](devops/ansible/playbook.md)
+  * [Jenkins](devops/ansible/jenkins.md)
+  * [consul](devops/ansible/consul.md)
 * [监控](monitor/README.md)
   * [promethues](monitor/promethues.md)
     * [告警处理](monitor/demo.md)
+* [Docker](docker.md)
+  * net
+* [Kubernetes](wang-luo.md)
+  * pod
+* [算法](suan-fa.md)
+  * [排序](suan-fa/pai-xu.md)
+  * [查找](suan-fa/cha-zhao.md)
+  * [二叉树](suan-fa/er-cha-shu.md)
 
