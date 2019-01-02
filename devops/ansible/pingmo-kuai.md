@@ -1,6 +1,5 @@
 ## ping模块
 
-  
 \#使用ansible的ping模块测试client是否能够通信！
 
 ```
