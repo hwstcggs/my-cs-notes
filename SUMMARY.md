@@ -28,7 +28,7 @@
 * [Python](python/README.md)
   * [json处理](python/json.md)
   * [文件处理](python/file.md)
-  * [网络编程](python/file.md)
+  * [网络编程](python/network.md)
 * [Golang](golang/README.md)
   * [Web](golang/web/README.md)
   * [json解析](golang/json.md)
