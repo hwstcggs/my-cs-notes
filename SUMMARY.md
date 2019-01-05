@@ -63,6 +63,9 @@
   * upstream 模块
   * 负载均衡模块
 * [Docker](docker.md)
+  * [生成镜像](docker/sheng-cheng-jing-xiang.md)
+    * [Commit](docker/sheng-cheng-jing-xiang/commit.md)
+    * Dockerfile
   * [网络](docker/net.md)
 * [Kubernetes](wang-luo.md)
   * pod
