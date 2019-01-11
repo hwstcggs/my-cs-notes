@@ -4,14 +4,14 @@
 'Access-Control-Allow-Origin' : '*'  允许跨域（服务间跨域请求）
 'Access-Control-Allow_Headers': 'X-Test-Cors'
 'Access-Control-Allow-Methods' : 'POST,PUT,DELETE'
-'Access-Control-Max-Age' : '1000'    # 设置验证时间
+'Access-Control-Max-Age' : '1000'    # 设置验证有效时间
 ```
 
 **CORS 预请求：**
 
-允许的方法： 
+允许的方法：
 
-1.  GET
+1. GET
 2. HEAD
 3. POST
 
