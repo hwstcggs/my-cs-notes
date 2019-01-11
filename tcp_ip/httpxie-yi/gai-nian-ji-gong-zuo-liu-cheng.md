@@ -33,8 +33,6 @@ URL 通用格式：
 <scheme>://<user>:<password>@<host>:<port>/<path>;<params>?<query>#<frag>
 ```
 
-
-
 **telnet**模拟**http**请求  localhost 80端口
 
 * GET
@@ -69,9 +67,10 @@ username=hewenshun&age=27
 * 响应报文
 
 ```
-<version> <status> <reason-phrase>
-<headers>
-<entity-body>
+<version> <status> <reason-phrase>   # 起始行
+<headers>                            # 首部
+
+<entity-body>                        # 主体
 ```
 
 
