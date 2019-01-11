@@ -69,7 +69,6 @@ username=hewenshun&age=27
 ```
 <version> <status> <reason-phrase>   # 起始行
 <headers>                            # 首部
-                                     # 空行
 <entity-body>                        # 主体
 ```
 
