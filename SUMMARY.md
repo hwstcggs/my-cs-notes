@@ -29,7 +29,7 @@
   * [HTTP协议](tcp_ip/httpxie-yi.md)
     * [概念及工作流程](tcp_ip/httpxie-yi/gai-nian-ji-gong-zuo-liu-cheng.md)
     * [编程发送GET请求](tcp_ip/httpxie-yi/bian-cheng-fa-song-get-qing-qiu.md)
-    * [跨域问题](tcp_ip/httpxie-yi/kua-yu-wen-ti.md)
+    * [特征总览](tcp_ip/httpxie-yi/kua-yu-wen-ti.md)
   * DNS协议
 * [Python开发](python/README.md)
   * [json处理](python/json.md)
