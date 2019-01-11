@@ -72,5 +72,35 @@ username=hewenshun&age=27
 <entity-body>                        # 主体
 ```
 
+请求过程：
+
+```
+➜  ~ curl -v http://www.baidu.com
+* Rebuilt URL to: http://www.baidu.com/
+*   Trying 0.0.0.97...
+* TCP_NODELAY set
+* Connected to www.baidu.com (127.0.0.1) port 80 (#0)
+> GET / HTTP/1.1
+> Host: www.baidu.com
+> User-Agent: curl/7.54.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform
+< Connection: Keep-Alive
+< Content-Length: 2381
+< Content-Type: text/html
+< Date: Fri, 11 Jan 2019 16:40:25 GMT
+< Etag: "588604eb-94d"
+< Last-Modified: Mon, 23 Jan 2017 13:28:11 GMT
+< Pragma: no-cache
+< Server: bfe/1.0.8.18
+< Set-Cookie: BDORZ=27315; max-age=86400; domain=.baidu.com; path=/
+< 
+<!DOCTYPE html>
+...
+```
+
 
 
