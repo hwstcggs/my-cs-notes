@@ -23,9 +23,7 @@
 
 
 
-**缓存头Cache-Control的含义和使用**
+**缓存头 Cache-Control 的含义和使用（**控制缓存的能力**）**
 
-
-
-
+**缓存验证 Last-Modified 和 Etag 的使用**
 
