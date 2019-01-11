@@ -28,6 +28,7 @@
   * [广播与组播](tcp_ip/cast.md)
   * [HTTP协议](tcp_ip/httpxie-yi.md)
     * [概念及工作流程](tcp_ip/httpxie-yi/gai-nian-ji-gong-zuo-liu-cheng.md)
+    * [编程发送GET请求](tcp_ip/httpxie-yi/bian-cheng-fa-song-get-qing-qiu.md)
   * DNS协议
 * [Python开发](python/README.md)
   * [json处理](python/json.md)
