@@ -12,7 +12,17 @@ OSI 七层模型
 物理层
 ```
 
-![](/img/tcp-ip.jpeg)
+![](/img/tcp-ip.jpeg)![](/img/tcp-ip-func.jpeg)
+
+---
+
+---
+
+
+
+![](/img/tcp-fengzhuang.png)![](/img/tcp-ip-fenyong.jpeg)
+
+
 
 国际标准协议的制定：
 
