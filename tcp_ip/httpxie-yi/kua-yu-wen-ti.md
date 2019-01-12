@@ -21,9 +21,12 @@
 2. multipart/form-data
 3. application/x-www-form-urlencoded
 
-
-
 **缓存头 Cache-Control 的含义和使用（**控制缓存的能力**）**
+
+```
+Cache-Control:max-age    // 文档的最大使用期
+Expires                  // 绝对的过期日期
+```
 
 **缓存验证 Last-Modified 和 Etag 的使用**
 
