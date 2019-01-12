@@ -24,9 +24,19 @@
 **缓存头 Cache-Control 的含义和使用（**控制缓存的能力**）**
 
 ```
-Cache-Control:max-age    // 文档的最大使用期
-Expires                  // 文档的绝对的过期日期
+Cache-Control:max-age      // 文档的最大使用期
+Expires                    // 文档的绝对的过期日期
+
 ```
 
 **缓存验证 Last-Modified 和 Etag 的使用**
+
+```
+If-Modified-Since:<date>   // 如果从指定日期之后文档被修改过了，就执行请求的方法
+If-None-Match:<tags>       // 为文档提供特殊的标签（参见ETag）
+```
+
+
+
+
 
