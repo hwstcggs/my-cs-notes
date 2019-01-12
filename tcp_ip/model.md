@@ -12,21 +12,17 @@ OSI 七层模型
 物理层
 ```
 
-![](/img/tcp-ip.jpeg)  
+![](/img/tcp-ip.jpeg)
 
-
-
-
-**TCP/IP协议族中不同层次的协议：**![](/img/tcp-ip-func.jpeg)
+**TCP/IP协议族中不同层次的协议：**![](/tcp_ip/images/tcp-ip-func.jpeg)
 
 **数据进入协议栈时的封装过程：**
 
-![](/img/tcp-fengzhuang.png)
+![](/tcp_ip/images/tcp-fengzhuang.png)
 
-  
 **以太网数据帧的分用过程：**
 
-![](/img/tcp-ip-fenyong.jpeg)
+![](/tcp_ip/images/tcp-ip-fenyong.jpeg)
 
 国际标准协议的制定：
 
