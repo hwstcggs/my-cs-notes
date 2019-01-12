@@ -25,7 +25,7 @@
 
 ```
 Cache-Control:max-age    // 文档的最大使用期
-Expires                  // 绝对的过期日期
+Expires                  // 文档的绝对的过期日期
 ```
 
 **缓存验证 Last-Modified 和 Etag 的使用**
