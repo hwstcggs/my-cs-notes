@@ -60,6 +60,7 @@
     * [playbook](devops/ansible/playbook.md)
   * [Jenkins](devops/ansible/jenkins.md)
   * [consul](devops/ansible/consul.md)
+    * [安装](devops/ansible/consul/an-zhuang.md)
 * [监控](monitor/README.md)
   * [promethues](monitor/promethues.md)
     * [告警处理](monitor/demo.md)
