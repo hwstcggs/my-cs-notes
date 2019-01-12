@@ -1,9 +1,9 @@
 # Summary
 
+* [introduction](introduction.md)
 * [前言](README.md)
 * [修订记录](revision-record.md)
 * [如何贡献](how-to-contribute.md)
-* [introduction](introduction.md)
 * [简介](introduction/README.md)
   * [目的](introduction/what.md)
 * [Linux](linux/README.md)
