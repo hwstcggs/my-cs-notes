@@ -1,8 +1,4 @@
-```
 # 我的学习笔记
-```
-
-```
 
 Kubernetes 是谷歌开源的容器集群管理系统，是 Google 多年大规模容器管理技术 Borg 的开源版本，也是 CNCF 最重要的项目之一，主要功能包括：
 
@@ -42,8 +38,3 @@ Kubernetes 发展非常迅速，已经成为容器编排领域的领导者。Kub
 ## 贡献者
 
 欢迎参与贡献和完善内容，贡献方法参考 [CONTRIBUTING](https://github.com/feiskyer/kubernetes-handbook/blob/master/CONTRIBUTING.md)。感谢所有的贡献者，贡献者列表见 [contributors](https://github.com/feiskyer/kubernetes-handbook/graphs/contributors)。
-
-```
-
-
-
