@@ -21,11 +21,11 @@
 
 **URL 与资源：**
 
-URL : Uniform Resource Locator     统一资源定位符
+- URI ：Uniform Resourc Identifier    统一资源标志符（标识唯一资源）
 
-URI ：Uniform Resourc Identifier    统一资源标志符（标识唯一资源）
+ - URL : Uniform Resource Locator     统一资源定位符
 
-URN ：永久统一资源定位符
+ - URN ：永久统一资源定位符
 
 URL 通用格式：
 
