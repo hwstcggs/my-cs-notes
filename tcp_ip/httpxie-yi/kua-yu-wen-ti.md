@@ -26,7 +26,6 @@
 ```
 Cache-Control:max-age      // 文档的最大使用期
 Expires                    // 文档的绝对的过期日期
-
 ```
 
 **缓存验证 Last-Modified 和 Etag 的使用**
@@ -36,7 +35,14 @@ If-Modified-Since:<date>   // 如果从指定日期之后文档被修改过了�
 If-None-Match:<tags>       // 为文档提供特殊的标签（参见ETag）
 ```
 
+**数据协商**
 
+```
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Encoding: gzip
+Accept-Language: en, pdf
+Accept-Charset: iso-8859-1, *, utf-8
+```
 
 
 
