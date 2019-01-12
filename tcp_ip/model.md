@@ -12,7 +12,7 @@ OSI 七层模型
 物理层
 ```
 
-![](/img/tcp-ip.jpeg)
+![](/tcp_ip/images/tcp-ip.jpeg)
 
 **TCP/IP协议族中不同层次的协议：**![](/tcp_ip/images/tcp-ip-func.jpeg)
 
