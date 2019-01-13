@@ -9,3 +9,7 @@ ICMP 经常被认为是 IP 层的一个组成部分。它传递差错报文以�
 **ICMP报文的类型:**
 
 ![](/tcp_ip/images/icmp02.jpeg)
+
+**ICMP地址掩码请求和应答报文:**
+![](/tcp_ip/images/icmp03.jpeg)
+
