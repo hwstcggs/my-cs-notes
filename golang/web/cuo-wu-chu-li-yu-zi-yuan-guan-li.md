@@ -66,13 +66,11 @@ func HandleFileList(writer http.ResponseWriter,request *http.Request) error {
 ```
 
 ```
-type appHandler func(writer http.ResponseWriter,
-    request *http.Request) error
+type appHandler func(writer http.ResponseWriter,request *http.Request) error
 
 func errWrapper(
-    handler appHandler) func(
-    http.ResponseWriter, *http.Request) {
-    return func(writer http.ResponseWriter,
+    handler appHandler) func(http.ResponseWriter, *http.Request) {
+        return func(writer http.ResponseWriter,
         request *http.Request) {
         // panic
         defer func() {
@@ -80,7 +78,7 @@ func errWrapper(
                 log.Printf("Panic: %v", r)
                 http.Error(writer,http.StatusText(http.StatusInternalServerError),http.StatusInternalServerError)
             }
-        }()
+        }() //匿名函数处理错误
 
         err := handler(writer, request)
 
