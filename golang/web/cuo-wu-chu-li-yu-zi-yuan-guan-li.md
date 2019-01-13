@@ -63,7 +63,9 @@ func HandleFileList(writer http.ResponseWriter,request *http.Request) error {
     writer.Write(all)
     return nil
 }
+```
 
+```
 type appHandler func(writer http.ResponseWriter,
     request *http.Request) error
 
