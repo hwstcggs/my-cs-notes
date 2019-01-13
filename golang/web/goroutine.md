@@ -16,6 +16,7 @@ func main(){
           } 
       }(i)
    }
+   time.sleep(time.Millsecond)
 }
 ```
 
