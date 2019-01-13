@@ -9,9 +9,9 @@
 func main(){
    var a [10] int
    for i := 0;i<10;i++{
-      go func(i int){
+      go func(j int){
           for {
-             a[i]++
+             a[j]++
              runtime.Gosched() // 主动交出控制权
           } 
       }(i)
