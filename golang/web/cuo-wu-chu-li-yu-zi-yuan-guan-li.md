@@ -48,14 +48,14 @@ func HandleFileList(writer http.ResponseWriter,request *http.Request) error {
     if strings.Index( request.URL.Path, prefix) != 0 {
         return userError(fmt.Sprintf("path %s must start "+ "with %s",request.URL.Path, prefix))
     }
-    path := request.URL.Path[len(prefix):]
-    file, err := os.Open(path)
+    path := request.URL.Path[len(prefix):] // 获取文件名
+    file, err := os.Open(path)   // 打开文件
     if err != nil {
         return err
     }
     defer file.Close()
 
-    all, err := ioutil.ReadAll(file)
+    all, err := ioutil.ReadAll(file) // 读取文件
     if err != nil {
         return err
     }
