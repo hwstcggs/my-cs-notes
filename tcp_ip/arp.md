@@ -13,6 +13,9 @@
 
 - 代理ARP （Proxy ARP）
  -  正面意义
-  - nat
- - 
+   - NAT到外部直连
+ - 弊端
+   - Proxy ARP环路问题
+   - VPN地址池选择问题
 
+总结：尽量不要使用Proxy ARP技术，推荐使用标准的路由技术
