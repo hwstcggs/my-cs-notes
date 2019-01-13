@@ -10,7 +10,7 @@ def download(retriever):
 1. 运行时才知道传入的retriever有没有get方法
 2. 需要注释来说明接口
 
-* ##### 接口的定义和实现
+3. ##### 接口的定义和实现
 
 interface是一组method签名的组合，我们通过interface来定义对象的一组行为;
 
