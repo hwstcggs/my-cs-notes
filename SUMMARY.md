@@ -39,11 +39,12 @@
   * [内建容器](golang/web/nei-jian-rong-qi.md)
   * [Interface](golang/web/jie-kou.md)
   * [函数式编程](golang/web/han-shu-shi-bian-cheng.md)
+  * [错误处理与资源管理](golang/web/cuo-wu-chu-li-yu-zi-yuan-guan-li.md)
   * [测试与性能调优](golang/web/ce-shi-yu-xing-neng-diao-you.md)
   * [Goroutine](golang/web/goroutine.md)
   * Channel
   * [HTTP及其他标准库](golang/web/README.md)
-  * [JSON处理](golang/json.md)
+  * 错误处理与资源管理
 * [运维工具](devops/README.md)
   * [ansible](devops/ansible/README.md)
     * [简介](devops/ansible/introduce.md)
