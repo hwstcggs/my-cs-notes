@@ -9,3 +9,5 @@ U n i x 系统在实现 p i n g 程序时是把 I C M P 报 文 中 的 标 识 
 
 
 
+**IP首部中的记录路由选项的一般格式:**![](/tcp_ip/images/ping02.png)
+
