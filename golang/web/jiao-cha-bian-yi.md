@@ -1,6 +1,4 @@
-# GOOS：目标平台的操作系统（darwin、freebsd、linux、windows） GOARCH：目标平台的体系架构（386、amd64、arm）
-
-
+## GOOS：目标平台的操作系统（darwin、freebsd、linux、windows） GOARCH：目标平台的体系架构（386、amd64、arm）
 
 **Mac 下编译 Linux 和 Windows 64位可执行程序：**
 
