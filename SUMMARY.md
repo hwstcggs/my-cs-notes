@@ -14,6 +14,7 @@
     * [网络](linux/manager/net.md)
     * [磁盘](linux/disk/README.md)
     * [进程管理](linux/process/README.md)
+    * 查看日志
 * [网络协议](tcp_ip/README.md)
   * [TCP/IP模型](tcp_ip/model.md)
   * [以太网协议](tcp_ip/ethernet.md)
