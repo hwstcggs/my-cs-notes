@@ -17,6 +17,7 @@ func main(){
       }(i)
    }
    time.sleep(time.Millsecond)
+   fmt.Println(a)
 }
 ```
 
