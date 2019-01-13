@@ -16,3 +16,8 @@ ICMP 经常被认为是 IP 层的一个组成部分。它传递差错报文以�
 **ICMP时间戳请求和应答报文:**
 ![](/tcp_ip/images/icmp04.jpeg)
 
+**“UDP端口不可达”例子中返回的ICMP报文:**
+![](/tcp_ip/images/icmp05.jpeg)
+
+**ICMP不可达报文:**
+![](/tcp_ip/images/icmp06.jpeg)
