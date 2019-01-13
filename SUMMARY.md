@@ -21,6 +21,7 @@
   * [ARP](tcp_ip/arp.md)
   * [ICMP](tcp_ip/icmp.md)
   * [PING](tcp_ip/ping.md)
+  * [TCP](tcp_ip/tcp.md)
   * [Traceroute](tcp_ip/traceroute.md)
   * [IP协议](tcp_ip/ip-protocol.md)
   * [IP分片](tcp_ip/ip-fragmentation.md)
@@ -30,8 +31,7 @@
     * [编程发送GET请求](tcp_ip/httpxie-yi/bian-cheng-fa-song-get-qing-qiu.md)
     * [特征总览](tcp_ip/httpxie-yi/kua-yu-wen-ti.md)
   * DNS协议
-  * Scapy
-    * [概述](tcp_ip/gai-shu.md)
+  * TCP
 * [Python开发](python/README.md)
   * [json处理](python/json.md)
   * [文件处理](python/file.md)
