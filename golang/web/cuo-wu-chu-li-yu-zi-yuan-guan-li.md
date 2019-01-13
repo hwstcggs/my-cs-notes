@@ -78,11 +78,11 @@ func errWrapper(
                 log.Printf("Panic: %v", r)
                 http.Error(writer,http.StatusText(http.StatusInternalServerError),http.StatusInternalServerError)
             }
-        }() //匿名函数处理错误
+        }() //匿名函数捕获错误
 
         err := handler(writer, request)
 
-        if err != nil {
+        if err != nil {  // 处理错误
             log.Printf("Error occurred "+"handling request: %s",err.Error()) // user error
             if userErr, ok := err.(userError); ok {http.Error(writer,userErr.Message(),http.StatusBadRequest)
                 return
