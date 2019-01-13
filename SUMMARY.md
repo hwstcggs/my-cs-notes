@@ -42,7 +42,7 @@
   * [错误处理与资源管理](golang/web/cuo-wu-chu-li-yu-zi-yuan-guan-li.md)
   * [测试与性能调优](golang/web/ce-shi-yu-xing-neng-diao-you.md)
   * [Goroutine](golang/web/goroutine.md)
-  * Channel
+  * [Channel](golang/web/channel.md)
   * [HTTP及其他标准库](golang/web/README.md)
   * 错误处理与资源管理
 * [运维工具](devops/README.md)
