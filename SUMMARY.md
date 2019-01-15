@@ -47,7 +47,7 @@
   * [Goroutine](golang/web/goroutine.md)
   * [Channel](golang/web/channel.md)
   * [HTTP及其他标准库](golang/web/README.md)
-  * 错误处理与资源管理
+  * [错误处理与资源管理](golang/web/cuo-wu-chu-li-yu-zi-yuan-guan-li.md)
 * [运维工具](devops/README.md)
   * [ansible](devops/ansible/README.md)
     * [简介](devops/ansible/introduce.md)
