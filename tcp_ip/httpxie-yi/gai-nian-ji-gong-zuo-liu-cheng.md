@@ -61,7 +61,8 @@ username=hewenshun&age=27
 ```
 <method> <request-url> <version>    # 起始行 (请求方法 请求路径 所用的协议)
 <header>                            # 首部
-<entity-body>                       # 主体
+
+<entity-body>                       # 主体信息
 ```
 
 * 响应报文
