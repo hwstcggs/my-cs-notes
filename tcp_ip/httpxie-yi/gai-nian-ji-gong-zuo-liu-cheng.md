@@ -62,7 +62,7 @@ username=hewenshun&age=27
 <method> <request-url> <version>    # 起始行 (请求方法 请求路径 所用的协议)
 <header>                            # 首部
 
-<entity-body>                       # 主体信息
+<entity-body>                       # 主体信息（与首部用一空行分隔）
 ```
 
 * 响应报文
