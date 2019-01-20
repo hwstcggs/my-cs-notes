@@ -68,7 +68,7 @@ username=hewenshun&age=27
 * 响应报文
 
 ```
-<version> <status> <reason-phrase>   # 起始行
+<version> <status> <reason-phrase>   # 起始行（协议版本 返回状态码 状态文字描述）
 <headers>                            # 首部
 <entity-body>                        # 主体
 ```
