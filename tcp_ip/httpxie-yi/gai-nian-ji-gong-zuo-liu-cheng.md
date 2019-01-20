@@ -47,7 +47,7 @@ Host : localhost
 
 ```
 telnet localhost 80
-POST / HTTP/1.1
+POST /  HTTP/1.1
 Host : localhost
 Content-type : application/x-www-form-urlencoded
 Content-length : 24
