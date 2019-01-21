@@ -59,10 +59,10 @@ username=hewenshun&age=27
 * 请求报文
 
 ```
-<method> <request-url> <version>    # 起始行 (请求方法 请求路径 所用的协议)
-<header>                            # 首部
+<method> <request-url> <version>    # 起始行 (请求方法 请求路径 所用的协议) ,对报文描述
+<header>                            # 首部，包含属性
 
-<entity-body>                       # 主体信息（与首部用一空行分隔）
+<entity-body>                       # 主体信息（与首部用一空行分隔），可选的，包含数据的
 ```
 
 * 响应报文
